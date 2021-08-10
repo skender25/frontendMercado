@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { UsersRoutingModule } from './users-routing.module';
-import { UsersComponent } from './users.component';
+import { ProductsRoutingModule } from './products-routing.module';
+import { ProductsComponent } from './products.component';
 import { TablePaginationModule } from '@shared/table-pagination/table-pagination.module';
 
 
 @NgModule({
-  declarations: [UsersComponent],
+  declarations: [ProductsComponent],
   imports: [
     CommonModule,
-    UsersRoutingModule,
+    ProductsRoutingModule,
     TablePaginationModule
   ]
 })
-export class UsersModule { }
+export class ProductsModule { }
